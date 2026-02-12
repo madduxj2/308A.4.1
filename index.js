@@ -1,5 +1,5 @@
 import * as Carousel from "./Carousel.js";
-
+import { API_KEY } from "./config.js";
 
 // The breed selection input element.
 const breedSelect = document.getElementById("breedSelect");
@@ -11,7 +11,7 @@ const progressBar = document.getElementById("progressBar");
 const getFavouritesBtn = document.getElementById("getFavouritesBtn");
 
 // Step 0: Store your API key here for reference and easy access.
-const API_KEY = "live_86syEWvAgpLBjFiRMvdLIF6jUyaDoZOvCydDvFvEZsYu4LvTfzRTFHEoRJVQ8ZtA";
+
 const BASE_URL = "https://api.thecatapi.com/v1";
 
 /* ---------------------------
